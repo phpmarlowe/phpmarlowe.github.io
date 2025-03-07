@@ -1,16 +1,20 @@
 ---
-pageLayout: friends
-title: 友情链接d
-list:
-  - name: pengzhanbo
-    link: https://github.com/pengzhanbo
-    avatar: https://github.com/pengzhanbo.png
-    location: 广州，中国
-    organization: VuePress
-    desc: 即使慢，驰而不息，纵会落后，纵会失败，但必须能够到达他所向的目标。
-    socials:
-      - icon: github
-        link: https://github.com/pengzhanbo
-      - icon: twitter
-        link: https://twitter.com/pengzhanbo
+home: true
+config:
+  - type: banner
+    banner: https://api.pengzhanbo.cn/wallpaper/bing
+    bannerMask:
+      light: 0.1
+      dark: 0.3
+    hero:
+      name: 瓜瓜和lmの爹
+      tagline: lqt
+      text: 加油努力拉屎要用力。
+      actions:
+        - text: 我的博客
+          link: /blog/
+          theme: brand
+        - text: Github
+          link: https://github.com/phpmarlowe
+          theme: alt
 ---
