@@ -1,6 +1,6 @@
 ---
 pageLayout: friends
-title: 友情链接
+title: 友情链接d
 list:
   - name: pengzhanbo
     link: https://github.com/pengzhanbo
