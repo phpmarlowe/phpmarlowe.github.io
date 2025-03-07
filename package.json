@@ -3,7 +3,6 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "packageManager": "pnpm@9.4.0",
   "author": "liqingtai <qingtai.li@gable-tech.com.cn>",
   "license": "MIT",
   "engines": {
