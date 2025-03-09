@@ -48,3 +48,30 @@
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
 }
+
+body {
+  background: url(/bg.png);
+}
+
+.vp-navbar {
+  background: transparent !important;
+  backdrop-filter: blur(2px);
+}
+.mini-search {
+  background-color: transparent !important;
+}
+
+.vp-doc-container {
+  /* background-color: gray; */
+}
+.vp-doc-container .container > .content {
+  background-image: radial-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0);
+  background-size: 10px 10px;
+  /* background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%),
+    linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%) !important;
+  background-size: 20px 20px !important; */
+
+  border: 1px solid #e9e9e9;
+  padding-top: 10px;
+  border-radius: 5px;
+}
