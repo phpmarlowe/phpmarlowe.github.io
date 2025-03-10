@@ -51,12 +51,12 @@
 
 @font-face {
   font-family: "LXGWWenKaiGB";
-  src: url("/font/LXGWWenKaiGBScreen.ttf");
+  src: url("/LXGWWenKaiGBScreen.ttf");
   /* unicode-range: U+4E00-9FCB; 汉字 */
 }
 @font-face {
   font-family: Pompiere;
-  src: url("/font/Pompiere-Regular.ttf");
+  src: url("Pompiere-Regular.ttf");
 }
 body {
   background: url(/bg.png);
