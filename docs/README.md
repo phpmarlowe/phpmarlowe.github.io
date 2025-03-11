@@ -6,7 +6,7 @@ config:
       name: PhpMarlowe
       text:
       tagline:
-      image: /plume.png
+      image: https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg01.jpg
       actions:
         - theme: brand
           text: hello blog →
