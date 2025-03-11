@@ -37,7 +37,7 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: "/gg02.jpg",
+    avatar: "https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/life/2025/gg02.jpg",
     name: "guagua",
     description: "haha",
     circle: true,
