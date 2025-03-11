@@ -9,7 +9,7 @@ config:
       image: /plume.png
       actions:
         - theme: brand
-          text: 快速开始 →
+          text: hello world →
           link: /guide/intro/
         - theme: alt
           text: Github
