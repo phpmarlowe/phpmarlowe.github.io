@@ -49,9 +49,10 @@
   */
 }
 
-.vp-navbar {
+.vp-navbar,
+.vp-local-nav {
   background: transparent !important;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1.5px);
 }
 .mini-search {
   background-color: transparent !important;
