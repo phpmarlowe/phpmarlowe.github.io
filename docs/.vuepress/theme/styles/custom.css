@@ -56,7 +56,7 @@
 }
 @font-face {
   font-family: Pompiere;
-  src: url("Pompiere-Regular.ttf");
+  src: url("/font/Pompiere-Regular.woff");
 }
 body {
   background: url(/bg.png);
