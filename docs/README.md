@@ -9,11 +9,8 @@ config:
       image: https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg01.jpg
       actions:
         - theme: brand
-          text: hello blog →
+          text: 更多 →
           link: /blog/
-        - theme: alt
-          text: Github
-          link:
 ---
 
 <!--

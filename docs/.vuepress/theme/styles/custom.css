@@ -68,3 +68,41 @@
     linear-gradient(360deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%) !important;
   background-size: 20px 20px !important; */
 }
+
+/* 动态头像 */
+.vp-image {
+  display: none;
+}
+.image-bg {
+  /* background-color: rgb(228, 133, 133); */
+  background-size: cover;
+  /* border: 1px solid red; */
+  background-image: url("https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg02.jpg") !important;
+  /* background-color: skyblue; */
+  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
+  -webkit-animation: image-wave 7.5s ease-in-out infinite 1s !important;
+}
+
+@keyframes image-wave {
+  0% {
+    border-top-left-radius: 60%;
+    border-top-right-radius: 40% 30%;
+    border-bottom-right-radius: 30% 70%;
+    border-bottom-left-radius: 70% 40%;
+  }
+  50% {
+    border-top-left-radius: 30% 50%;
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 70% 30%;
+    border-bottom-left-radius: 40% 60%;
+  }
+
+  100% {
+    border-top-left-radius: 60%;
+    border-top-right-radius: 40% 30%;
+    border-bottom-right-radius: 30% 70%;
+    border-bottom-left-radius: 70% 40%;
+  }
+}
+
+/* 代码块 */

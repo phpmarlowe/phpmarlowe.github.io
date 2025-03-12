@@ -1,7 +1,7 @@
 ---
-title: Markdown
+title: demo
 tags:
-  - markdown
+  - demo
 createTime: 2025/03/06 10:19:35
 permalink: /article/z0qef233/
 ---
@@ -33,32 +33,28 @@ $\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
 
 H~2~O
 
-::: center
-内容居中
-:::
+::: center 内容居中 :::
 
-::: right
-内容右对齐
-:::
+::: right 内容右对齐 :::
 
-- 无序列表1
-- 无序列表2
-- 无序列表3
+- 无序列表 1
+- 无序列表 2
+- 无序列表 3
 
-1. 有序列表1
-2. 有序列表2
-3. 有序列表3
+1. 有序列表 1
+2. 有序列表 2
+3. 有序列表 3
 
-- [ ] 任务列表1
-- [ ] 任务列表2
-- [x] 任务列表3
-- [x] 任务列表4
+- [ ] 任务列表 1
+- [ ] 任务列表 2
+- [x] 任务列表 3
+- [x] 任务列表 4
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
 | col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
 > 引用内容
 >
@@ -84,6 +80,7 @@ H~2~O
 **demo wrapper：**
 
 ::: demo-wrapper title="示例" no-padding height="200px"
+
 <style scoped>
 .open-door {
   display: flex;
@@ -105,9 +102,9 @@ H~2~O
 **代码：**
 
 ```js whitespace
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 
 // [!code word:obj]
 const obj = {
@@ -115,31 +112,30 @@ const obj = {
     deep: {
       deep: {
         deep: {
-          value: 'this is to long text. this is to long text. this is to long text. this is to long text.', // [!code highlight]
-        }
-      }
-    }
-  }
-}
+          value: "this is to long text. this is to long text. this is to long text. this is to long text.", // [!code highlight]
+        },
+      },
+    },
+  },
+};
 ```
 
 **代码分组：**
 
-::: code-tabs
-@tab tab1
+::: code-tabs @tab tab1
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 @tab tab2
 
 ```ts
-const a: number = 1
-const b: number = 2
-const c: number = a + b
+const a: number = 1;
+const b: number = 2;
+const c: number = a + b;
 ```
 
 :::
@@ -148,15 +144,15 @@ const c: number = a + b
 
 ```ts
 function foo() {
-  const a = 1 // [!code highlight]
+  const a = 1; // [!code highlight]
 
-  console.log(a)
+  console.log(a);
 
-  const b = 2 // [!code ++]
-  const c = 3 // [!code --]
+  const b = 2; // [!code ++]
+  const c = 3; // [!code --]
 
-  console.log(a + b + c) // [!code error]
-  console.log(a + b) // [!code warning]
+  console.log(a + b + c); // [!code error]
+  console.log(a + b); // [!code warning]
 }
 ```
 
@@ -164,102 +160,89 @@ function foo() {
 
 ```ts
 function foo() {
-  const a = 1 // [!code focus]
+  const a = 1; // [!code focus]
 }
 ```
 
-::: note 注释
-注释内容 [link](https://github.com/pengzhanbo) `inline code`
+::: note 注释注释内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
-::: info 信息
-信息内容 [link](https://github.com/pengzhanbo) `inline code`
+::: info 信息信息内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
-::: tip 提示
-提示内容 [link](https://github.com/pengzhanbo) `inline code`
+::: tip 提示提示内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
-::: warning 警告
-警告内容 [link](https://github.com/pengzhanbo) `inline code`
+::: warning 警告警告内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
-::: caution 错误
-错误内容 [link](https://github.com/pengzhanbo) `inline code`
+::: caution 错误错误内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
-::: important 重要
-重要内容 [link](https://github.com/pengzhanbo) `inline code`
+::: important 重要重要内容 [link](https://github.com/pengzhanbo) `inline code`
 
 ```js
-const a = 1
-const b = 2
-const c = a + b
+const a = 1;
+const b = 2;
+const c = a + b;
 ```
 
 :::
 
 **GFM alert：**
 
-> [!note]
-> note
+> [!note] note
 
-> [!info]
-> info
+> [!info] info
 
-> [!tip]
-> tip
+> [!tip] tip
 
-> [!warning]
-> warning
+> [!warning] warning
 
-> [!caution]
-> caution
+> [!caution] caution
 
-> [!important]
-> important
+> [!important] important
 
 **代码演示：**
 
 :::: demo title="常规示例" desc="一个常规示例"
 
-::: code-tabs
-@tab HTML
+::: code-tabs @tab HTML
 
 ```html
 <div id="app">
@@ -270,9 +253,9 @@ const c = a + b
 @tab Javascript
 
 ```js
-const a = 'So Awesome!'
-const app = document.querySelector('#app')
-app.appendChild(window.document.createElement('small')).textContent = a
+const a = "So Awesome!";
+const app = document.querySelector("#app");
+app.appendChild(window.document.createElement("small")).textContent = a;
 ```
 
 @tab CSS
@@ -284,28 +267,17 @@ app.appendChild(window.document.createElement('small')).textContent = a
 }
 ```
 
-:::
-::::
+::: ::::
 
 **选项卡：**
 
-::: tabs
-@tab 标题1
-内容区块
+::: tabs @tab 标题 1 内容区块
 
-@tab 标题2
-内容区块
-:::
+@tab 标题 2 内容区块 :::
 
-:::: warning
-::: tabs
-@tab 标题1
-内容区块
+:::: warning ::: tabs @tab 标题 1 内容区块
 
-@tab 标题2
-内容区块
-:::
-::::
+@tab 标题 2 内容区块 ::: ::::
 
 **脚注：**
 

@@ -6,7 +6,9 @@ export const navbar = defineNavbarConfig([
   { text: "标签", link: "/blog/tags/" },
   // { text: "归档", link: "/blog/archives/" },
   {
-    text: "笔记",
-    items: [{ text: "示例", link: "/preview/custom-component.example.md" }],
+    text: "生活",
+    items: [{ text: "杂记", link: "/myself/markdown.md" }],
   },
+  { text: "时间线", link: "/notes/myself/README.md" },
+  { text: "关于", link: "/about/" },
 ]);

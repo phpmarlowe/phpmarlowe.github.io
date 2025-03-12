@@ -37,13 +37,13 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: "https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg02.jpg",
-    name: "guagua",
-    description: "haha",
+    avatar: "https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg01.jpg",
+    name: "瓜瓜",
+    description: "挠你哟",
     circle: true,
     location: "",
     organization: "",
-    layout: "left",
+    layout: "right",
   },
 
   navbar,
