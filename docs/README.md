@@ -3,10 +3,10 @@ home: true
 config:
   - type: doc-hero
     hero:
-      name: PhpMarlowe
+      name:
       text:
       tagline:
-      image: https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg01.jpg
+      image:
       actions:
         - theme: brand
           text: 更多 →
