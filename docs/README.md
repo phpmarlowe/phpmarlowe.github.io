@@ -3,9 +3,9 @@ home: true
 config:
   - type: doc-hero
     hero:
-      name:
-      text:
-      tagline:
+      name: xxxx
+      text: sserw
+      tagline: sserw
       image:
       actions:
         - theme: brand

@@ -5,9 +5,8 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "phpmarlowe",
-  description: "",
-
+  title: "crypto 参考消息",
+  description: "xx",
   head: [
     // 配置站点图标
     ["link", { rel: "icon", type: "image/png", href: "https://theme-plume.vuejs.press/favicon-32x32.png" }],
