@@ -47,7 +47,10 @@ config:
 ::: center
 
 # 快速导航
-
+<SocialShare 
+  :networks="['twitter', 'facebook']" 
+  :tags="['SocialShare', 'VuePress']" 
+/>
 ### xxx
 
 :::

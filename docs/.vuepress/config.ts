@@ -1,7 +1,8 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
-// import plugins from "./plugins";
+import plugins from "./plugins";
+
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
@@ -180,5 +181,5 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
-  // plugins,
+  plugins,
 });
