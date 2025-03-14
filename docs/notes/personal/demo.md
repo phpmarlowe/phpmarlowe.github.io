@@ -3,7 +3,7 @@ title: demo
 tags:
   - demo
 createTime: 2025/03/06 10:19:35
-permalink: /article/z0qef233/
+permalink: /personal/xxx
 ---
 
 ## 标题 2

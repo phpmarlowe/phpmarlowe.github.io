@@ -1,16 +1,16 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
-
+// import plugins from "./plugins";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "phpmarlowe",
+  title: "正如你轻轻的来~",
   description: "",
 
   head: [
     // 配置站点图标
-    ["link", { rel: "icon", type: "image/png", href: "https://theme-plume.vuejs.press/favicon-32x32.png" }],
+    ["link", { rel: "icon", type: "image/png", href: "/icon/c.svg" }],
   ],
 
   bundler: viteBundler(),
@@ -180,4 +180,5 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
+  // plugins,
 });
