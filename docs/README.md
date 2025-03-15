@@ -1,26 +1,20 @@
 ---
 pageLayout: home
-externalLinkIcon: false
+externalLinkIcon: true
 config:
-  - type: banner
-    banner: "/back-ground/wave.png"
-    bannerMask:
-      light: 0.1
-      dark: 0.3
+  - type: doc-hero
     hero:
-      name: xxx
-      tagline: Keep It Simple
-      text: 如无必要，勿增实体。
+      name: Theme Plume
+      text: VuePress Next Theme
+      tagline: 一个简约易用的，功能丰富的 vuepress 文档&博客 主题
+      image: /plume.png
       actions:
         - theme: brand
-          text: 进入博客
-          link: /blog/
-        - theme: brand
-          text: 😶 关于我
-          link: /about-me/
+          text: 快速开始 →
+          link: /guide/intro/
         - theme: alt
-          text: Github ->
-          link: xxx
+          text: Github
+          link: https://github.com/pengzhanbo/vuepress-theme-plume
   - type: custom
 
   - type: features
@@ -47,10 +41,12 @@ config:
 ::: center
 
 # 快速导航
+
 <SocialShare 
   :networks="['twitter', 'facebook']" 
   :tags="['SocialShare', 'VuePress']" 
 />
+
 ### xxx
 
 :::
