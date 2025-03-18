@@ -5,7 +5,7 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "crypto 参考消息",
+  title: "参考消息",
   description: "xx",
   head: [
     // 配置站点图标
