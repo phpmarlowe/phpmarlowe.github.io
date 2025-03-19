@@ -13,7 +13,7 @@ export default defineThemeConfig({
   social: [
     {
       icon: "x",
-      link: "http://wpa.qq.com/msgrd?v=3&uin=1548031817&site=qq&menu=yes",
+      link: "http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes",
     },
     {
       icon: {
@@ -48,7 +48,7 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: "https://p0.qhimg.com/t11cede5e7b4c1588e3c737e649.png",
-    name: "",
+    name: "sss",
     description: "",
     circle: false,
     location: "",
