@@ -11,30 +11,22 @@ config:
 
   - type: features
     features:
-      - title: SSH
+      - title: 快速入门
         icon: mdi:ssh
-        details: SSH 命令行、SCP、keygen 生成
+        details: 小白如何快速完成第一笔交易
         link: ./ssh.md
-      - title: Grep
+      - title: 名词解释
         icon: cil:find-in-page
-        details: Grep 命令行、参数、正则表达式
+        details: 现货、合约、web3土狗、链上
         link: ./grep.md
-      - title: Git
+      - title: 打狗辅助工具
         icon: logos:git-icon
-        details: Git 命令行、日志、统计、分支
+        details: 工欲善其事，必先利其器
         link: ./git.md
-      - title: pm2
+      - title: 交易所和web3钱包
         icon: logos:pm2-icon
-        details: pm2 进程管理、配置
+        details: 钱包的使用
         link: ./pm2.md
-      - title: nginx
-        icon: logos:nginx
-        details: nginx 配置，常用功能示例
-        link: ./nginx.md
-      - title: cargo
-        icon: logos:rust
-        details: cargo 命令行、参数
-        link: ./cargo.md
   - type: custom
 permalink: /demo-note/
 createTime: 2024/06/20 22:02:04
