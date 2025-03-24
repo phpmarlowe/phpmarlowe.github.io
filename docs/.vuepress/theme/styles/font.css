@@ -1477,12 +1477,12 @@
 /* --------------------------------------- */
 
 @font-face {
-  font-family: Pompiere;
-  src: url("/font/Pompiere-Regular.woff2");
-  /* 小写、大写、数字*/
-  unicode-range: u+61-7a, u+41-5a, u+30-39;
+  font-family: "ZWZT";
+  src: url("/font/PRshouxie/003.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
 body {
-  font-family: Pompiere, LXGWWenKai;
+  font-family: ZWZT;
 }

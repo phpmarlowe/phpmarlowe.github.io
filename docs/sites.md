@@ -9,10 +9,13 @@ article: false
 
 <CardGrid>
 
-  <LinkCard title="Binance" icon="token-branded:binance" href="https://www.binance.com/" />
-  <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" />
-  <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" />
-  <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
+<LinkCard title="Binance" icon="token-branded:binance" href="https://www.binance.com/" >
+
+</LinkCard> 
+<LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" >
+
+</LinkCard>
+ <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" /> <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
 
   <!-- <LinkCard title="Kucoin" icon="logos:kucoin" href="https://www.kucoin.com/" />
   <LinkCard title="Bitfinex" icon="logos:bitfinex" href="https://www.bitfinex.com/" />
@@ -46,10 +49,12 @@ article: false
 ## 工具
 
 <CardGrid>
-  <LinkCard title="Binance" icon="token-branded:binance" href="https://www.binance.com/" />
+  <LinkCard title="gmgn" icon="token-branded:binance" href="https://www.binance.com/" />
   <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" />
   <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" />
   <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
 </CardGrid>
+
+##### 更多工具
 
 ---
