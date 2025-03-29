@@ -50,7 +50,7 @@ div[class*="language-"].line-numbers-mode:after {
   h2,
   h3 {
     .header-anchor:hover {
-      color: #ff8736;
+      color: #1296db;
     }
   }
 
@@ -58,11 +58,11 @@ div[class*="language-"].line-numbers-mode:after {
     border: none;
     .header-anchor {
       display: block;
-      border-bottom: 4px solid #ff8736;
+      border-bottom: 4px solid #1296db;
       position: relative;
       font-size: 24px;
       padding: 12px 32px;
-      color: #ff8736;
+      color: #1296db;
       font-weight: 700;
 
       &::before,
@@ -91,7 +91,7 @@ div[class*="language-"].line-numbers-mode:after {
         width: 400px;
         height: 10px;
         border-top-right-radius: 24px;
-        background: linear-gradient(90deg, transparent, #ff8736);
+        background: linear-gradient(90deg, transparent, #1296db);
         max-width: 50vw;
       }
     }
@@ -104,7 +104,7 @@ div[class*="language-"].line-numbers-mode:after {
       position: relative;
       padding: 4px 32px;
       width: max-content;
-      color: #ff8736;
+      color: #1296db;
       font-weight: 700;
 
       &::before,
@@ -117,7 +117,7 @@ div[class*="language-"].line-numbers-mode:after {
       }
 
       &::before {
-        border-bottom: 2px solid #ff8736;
+        border-bottom: 2px solid #1296db;
         width: 100%;
         content: "";
         display: block;
@@ -139,7 +139,7 @@ div[class*="language-"].line-numbers-mode:after {
         width: 28px;
         height: 28px;
         position: absolute;
-        border: 2px solid #ff8736;
+        border: 2px solid #1296db;
         border-radius: 50%;
         right: -15px;
         top: 0;

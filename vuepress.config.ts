@@ -8,8 +8,8 @@ export default defineUserConfig({
   title: "参考消息",
   description: "xx",
   head: [
-    // 配置站点图标
-    ["link", { rel: "icon", type: "image/png", href: "https://theme-plume.vuejs.press/favicon-32x32.png" }],
+    // 配置站点图标#1296db#1296db
+    ["link", { rel: "icon", href: "/img/favicon.svg" }],
   ],
 
   bundler: viteBundler(),
@@ -18,7 +18,6 @@ export default defineUserConfig({
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     // hostname: 'https://your_site_url',
-
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
     // docsDir: 'docs',

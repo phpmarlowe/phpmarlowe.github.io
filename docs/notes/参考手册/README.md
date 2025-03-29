@@ -35,7 +35,7 @@ createTime: 2024/06/20 22:02:04
 <style>
 .page-memorandum {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #ff8736 30%, #ffdf85);
+  --vp-home-hero-name-background: linear-gradient(120deg, #1296db 30%, #ffdf85);
   --vp-home-hero-image-background-image: linear-gradient(
     45deg,
     rgb(255, 246, 215) 50%,

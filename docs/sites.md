@@ -15,46 +15,36 @@ article: false
 <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" >
 
 </LinkCard>
- <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" /> <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
+ <LinkCard title="Bybit" icon="https://s2.coinmarketcap.com/static/img/exchanges/64x64/521.png" href="https://www.bybit.com/" /> 
+ <LinkCard title="Coinbase" icon="https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png" href="https://www.coinbase.com/" />
+ <LinkCard title="Gate.io" icon="https://s2.coinmarketcap.com/static/img/exchanges/64x64/302.png" href="https://www.gate.io/" />
+ <LinkCard title="bigget" icon="https://s2.coinmarketcap.com/static/img/exchanges/64x64/513.png" href="https://www.bitget.com" />
+ <LinkCard title="HTX" icon="/img/other/htx.ico" href="https://www.htx.com/en-us/" />
+ <LinkCard title="mexc" icon="https://s2.coinmarketcap.com/static/img/exchanges/64x64/544.png" href="https://www.mexc.com/" />
 
-  <!-- <LinkCard title="Kucoin" icon="logos:kucoin" href="https://www.kucoin.com/" />
-  <LinkCard title="Bitfinex" icon="logos:bitfinex" href="https://www.bitfinex.com/" />
-  <LinkCard title="FTX" icon="logos:ftx" href="https://ftx.com/" />
-  <LinkCard title="Deribit" icon="logos:deribit" href="https://www.deribit.com/" />
-  <LinkCard title="Gate.io" icon="logos:gate-io" href="https://www.gate.io/" />
-  <LinkCard title="Bitstamp" icon="logos:bitstamp" href="https://www.bitstamp.net/" />
-  <LinkCard title="Bittrex" icon="logos:bittrex" href="https://bittrex.com/" />
-  <LinkCard title="Poloniex" icon="logos:poloniex" href="https://poloniex.com/" />
-  <LinkCard title="Kraken" icon="logos:kraken" href="https://www.kraken.com/" />
-  <LinkCard title="Coinbase Pro" icon="logos:coinbase-pro" href="https://pro.coinbase.com/" />
-  <LinkCard title="Binance US" icon="token-branded:binance-us" href="https://www.binance.us/" />
-  <LinkCard title="Kucoin Pro" icon="logos:kucoin" href="https://www.kucoin.com/pro/" />
-  <LinkCard title="Bitfinex Pro" icon="logos:bitfinex" href="https://www.bitfinex.com/pro/" />
-  <LinkCard title="FTX US" icon="logos:ftx" href="https://ftx.us/" />
-  <LinkCard title="Bybit Pro" icon="logos:bybit" href="https://www.bybit.com/en-us/pro/" />
-  <LinkCard title="Deribit Pro" icon="logos:deribit" href="https://www.deribit.com/reg-1099.5016" />
-  <LinkCard title="Gate.io Pro" icon="logos:gate-io" href="https://www.gate.io/signup/pro" />
-  <LinkCard title="Bitstamp Pro" icon="logos:bitstamp" href="https://www.bitstamp.pro/" />
-  <LinkCard title="Bittrex Pro" icon="logos:bittrex" href="https://bittrex.pro/" />
-  <LinkCard title="Poloniex Pro" icon="logos:poloniex" href="https://poloniex.pro/" />
-  <LinkCard title="Kraken Pro" icon="logos:kraken" href="https://www.kraken.com/pro/" />
-  <LinkCard title="Coinbase Prime" icon="logos:coinbase-prime" href="https://prime.coinbase.com/" />
-  <LinkCard title="Binance Futures" icon="token-branded:binance-futures" href="https://www.binance.com/en/futures" />
-  <LinkCard title="Kucoin Futures" icon="logos:kucoin" href="https://futures.kucoin.com/" />
-  <LinkCard title="FTX Futures" icon="logos:ftx" href="https://futures.ftx.com/" />
-  <LinkCard title="Bybit Futures" icon="logos:bybit" href="https://www.bybit.com/en-us/futures" />
-  <LinkCard title="Deribit Futures" icon="logos:deribit" href="https://www.deribit.com/reg-1099.5016" />   -->
 </CardGrid>
 
-## 工具
+<!-- ## 工具
 
 <CardGrid>
   <LinkCard title="gmgn" icon="token-branded:binance" href="https://www.binance.com/" />
   <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" />
   <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" />
   <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
-</CardGrid>
-
-##### 更多工具
+</CardGrid> -->
 
 ---
+
+::: note
+
+收录各大目录下较为常用的站点。如有频繁使用的需求，请联系[站长推特][1]添加
+
+:::
+
+[1]: https://x.com/cankao_xiaoxi "cankaoxiaoxi"
+
+<style>
+  .vp-doc h2 .header-anchor::before{
+        background-image: url(/img/dh.svg)
+  }
+</style>
