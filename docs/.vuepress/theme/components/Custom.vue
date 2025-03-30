@@ -9,13 +9,44 @@ const props = defineProps<
     // 组件 props, frontmatter 中的属性将会传递给组件
   }
 >();
-const $router = useRouter();
-const message = ref("hello crypto");
-function enter() {
-  console.log($router);
-  $router.push("/about");
-  // window.location.href = "/blog/";
-}
+const wheel = ref([
+  {
+    name: "BTC",
+    src: "https://cdn-icons-png.flaticon.com/512/5968/5968260.png",
+    title: "",
+    desc: "",
+  },
+  {
+    name: "SOLALA",
+    src: "https://cdn-icons-png.flaticon.com/512/15208/15208206.png",
+    title: "",
+    desc: "",
+  },
+  {
+    name: "eth",
+    src: "https://cdn-icons-png.flaticon.com/512/14446/14446159.png",
+    title: "",
+    desc: "",
+  },
+  {
+    name: "PEPE",
+    src: "https://cryptologos.cc/logos/pepe-pepe-logo.png?v=040",
+    title: ".",
+    desc: "",
+  },
+  {
+    name: "DOGE",
+    src: "https://upload.wikimedia.org/wikipedia/zh/thumb/d/d0/Dogecoin_Logo.png/250px-Dogecoin_Logo.png",
+    title: "",
+    desc: "",
+  },
+  {
+    name: "SHIB",
+    src: "https://cryptologos.cc/logos/shiba-inu-shib-logo.png?v=040",
+    title: "",
+    desc: "",
+  },
+]);
 </script>
 
 <template>
@@ -23,123 +54,26 @@ function enter() {
     <div class="section-wrapper">
       <header class="header">
         <hgroup class="hgroup">
-          <h1 class="headline">欢迎来到币圈参考消息</h1>
-          <p class="tagline">信息收集&交易参考</p>
+          <!-- <h1 class="headline" style="font-size: large">欢迎来到币圈参考消息</h1>
+          <p class="tagline">信息收集&交易参考</p> -->
         </hgroup>
-        <RouteLink class="section-link" to="/blog/">新手入门</RouteLink>
+        <div style="display: flex; gap: 16px">
+          <!-- <RouteLink class="section-link" to="/sites/">新手入门</RouteLink> -->
+          <RouteLink class="section-link" to="/sites/">站点导航</RouteLink>
+        </div>
       </header>
       <!-- nth-siblings = Total cards count - 1; update this whenever you add/remove a card  -->
       <ul class="cards" style="--nth-siblings: 5">
-        <li class="card" style="--nth-child: 1">
+        <li v-for="(item, index) in wheel" class="card" :style="{ '--nth-child': index + 1 }">
           <a href="#" class="avatar-link-wrapper">
             <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-1.avif"
-                width="144"
-                height="144"
-                alt="Ethan B., DevOps Engineer" />
+              <img class="avatar-img" :src="item.src" width="144" height="144" alt="Ethan B., DevOps Engineer" />
             </div>
             <div class="tooltiptext">
-              <h3 class="team-name">Ethan B.</h3>
+              <h3 class="team-name">{{ item.name }}</h3>
               <div class="team-content-wrapper">
-                <p class="team-title">DevOps Engineer</p>
-                <p class="team-bio">Master of servers, pipelines, and keeping things running smoothly.</p>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="card" style="--nth-child: 2">
-          <a href="#" class="avatar-link-wrapper">
-            <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-2.avif"
-                width="144"
-                height="144"
-                alt="Ava L., UI/UX Designer" />
-            </div>
-            <div class="tooltiptext">
-              <h3 class="team-name">Ava L.</h3>
-              <div class="team-content-wrapper">
-                <p class="team-title">UI/UX Designer</p>
-                <p class="team-bio">Turning ideas into stunning designs, one pixel at a time.</p>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="card" style="--nth-child: 3">
-          <a href="#" class="avatar-link-wrapper">
-            <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-3.avif"
-                width="144"
-                height="144"
-                alt="Liam J., Mobile Developer" />
-            </div>
-            <div class="tooltiptext">
-              <h3 class="team-name">Liam J.</h3>
-              <div class="team-content-wrapper">
-                <p class="team-title">Mobile Developer</p>
-                <p class="team-bio">Crafting sleek, intuitive apps for users on the go.</p>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="card" style="--nth-child: 4">
-          <a href="#" class="avatar-link-wrapper">
-            <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-4.avif"
-                width="144"
-                height="144"
-                alt="Sophia K., Data Scientist" />
-            </div>
-            <div class="tooltiptext">
-              <h3 class="team-name">Sophia K.</h3>
-              <div class="team-content-wrapper">
-                <p class="team-title">Data Scientist</p>
-                <p class="team-bio">Decoding patterns and finding insights in the chaos.</p>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="card" style="--nth-child: 5">
-          <a href="#" class="avatar-link-wrapper">
-            <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-5.avif"
-                width="144"
-                height="144"
-                alt="Codey X, AI Code Assistant" />
-            </div>
-            <div class="tooltiptext">
-              <h3 class="team-name">Codey X</h3>
-              <div class="team-content-wrapper">
-                <p class="team-title">AI Code Assistant</p>
-                <p class="team-bio">Powered by algorithms, driven by collaboration.</p>
-              </div>
-            </div>
-          </a>
-        </li>
-        <li class="card" style="--nth-child: 6">
-          <a href="#" class="avatar-link-wrapper">
-            <div class="visual">
-              <img
-                class="avatar-img"
-                src="https://raw.githubusercontent.com/mobalti/modern-web-ui/refs/heads/main/css-trig-functions/images/img-6.avif"
-                width="144"
-                height="144"
-                alt="Maya R., Project Manager" />
-            </div>
-            <div class="tooltiptext">
-              <h3 class="team-name">Maya R.</h3>
-              <div class="team-content-wrapper">
-                <p class="team-title">Project Manager</p>
-                <p class="team-bio">Keeping the team in sync and deadlines on track.</p>
+                <p class="team-title">{{ item.title }}</p>
+                <p class="team-bio">{{ item.desc }}</p>
               </div>
             </div>
           </a>
