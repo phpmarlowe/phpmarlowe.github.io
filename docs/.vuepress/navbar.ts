@@ -2,7 +2,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export const navbar = defineNavbarConfig([
   { text: "首页", link: "/" },
-  // { text: "推文精选", link: "/blog/" }, // 集思广益 3.23前 麦总、慧姐、巫师 三篇
+  { text: "推文精选", link: "/blog/", activeMatch: "^/(blog|article)/" }, // 集思广益 3.23前 麦总、慧姐、巫师 三篇
   // { text: "参考手册", link: "/demo-note/" },
   { text: "站点导航", link: "/sites/" },
   // {
