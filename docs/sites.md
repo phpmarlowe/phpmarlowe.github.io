@@ -10,7 +10,6 @@ article: false
 <CardGrid>
 
 <LinkCard title="Binance" icon="token-branded:binance" href="https://www.binance.com/" >
-
 </LinkCard> 
 <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" >
 
@@ -24,20 +23,23 @@ article: false
 
 </CardGrid>
 
-<!-- ## 工具
+## 工具
 
 <CardGrid>
-  <LinkCard title="gmgn" icon="token-branded:binance" href="https://www.binance.com/" />
-  <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" />
-  <LinkCard title="Bybit" icon="simple-icons:builtbybit" href="https://www.bybit.com/" />
-  <LinkCard title="Coinbase" icon="token-branded:coinbase" href="https://www.coinbase.com/" />
-</CardGrid> -->
+  <LinkCard title="gmgn官网" icon="/img/other/gmgn.png" href="https://www.gmgn.ai/" />
+  <LinkCard title="gmgn使用手册" icon="/img/other/gmgn.png" href="https://docs.gmgn.ai/cn/"/>
+  <LinkCard title="DexScreener" icon="/img/other/dexscreener.png" href="https://dexscreener.com/" />
+  <LinkCard title="GeckoTermial" icon="/img/other/geckoterminal.jpg" href="https://www.geckoterminal.com/zh" />
+  <LinkCard title="Crypto Bubbles" icon="/img/other/crypto-bubbles.jpg" href="https://cryptobubbles.net/" />
+</CardGrid>
 
 ---
 
 ::: note
 
-收录各大目录下较为常用的站点。如有频繁使用的需求，请联系[站长推特][1]添加
+不管是交易所还是工具类的网站都远不止这些，同类功能的这里只列举一二，我们也只需要掌握其中较为热门的去使用即可，降低心智负担。
+
+如有未添加且有频繁使用的需求，请联系[站长推特][1]添加
 
 :::
 
