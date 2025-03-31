@@ -10,7 +10,6 @@ article: false
 <CardGrid>
 
 <LinkCard title="Binance" icon="token-branded:binance" href="https://www.binance.com/" >
-
 </LinkCard> 
 <LinkCard title="OKX" icon="token-branded:okx" href="https://www.huobi.com/" >
 
