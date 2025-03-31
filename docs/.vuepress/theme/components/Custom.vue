@@ -42,7 +42,7 @@ const wheel = ref([
   },
   {
     name: "SHIB",
-    src: "https://cryptologos.cc/logos/shiba-inu-shib-logo.png?v=040",
+    src: "https://cdn-icons-png.flaticon.com/512/15301/15301760.png",
     title: "",
     desc: "",
   },
