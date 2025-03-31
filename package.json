@@ -3,16 +3,16 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "author": "xiaoxicankao",
-  "license": "MIT",
+  "author": "cankaoxiaoxi",
+  "license": "",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "--docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "docsLpreview": "http-server docs/.vuepress/dist",
+    "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
