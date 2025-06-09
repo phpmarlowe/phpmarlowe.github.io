@@ -2,17 +2,24 @@ import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
 import plugins from "./plugins";
+import { fs, getDirname, path } from "vuepress/utils";
+
+const resolve = (...dirs: string[]) => path.resolve(__dirname, ...dirs);
 
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "正如你轻轻的来~",
+  title: "phpmarlowe",
   description: "",
 
   head: [
     // 配置站点图标
     ["link", { rel: "icon", type: "image/png", href: "/icon/c.svg" }],
   ],
+
+  alias: {
+    "~theme": resolve("./theme"),
+  },
 
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
