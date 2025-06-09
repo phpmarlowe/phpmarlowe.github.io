@@ -1,16 +1,17 @@
 import { viteBundler } from "@vuepress/bundler-vite";
 import { defineUserConfig } from "vuepress";
 import { plumeTheme } from "vuepress-theme-plume";
+import plugins from "./plugins";
 
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "phpmarlowe",
+  title: "正如你轻轻的来~",
   description: "",
 
   head: [
     // 配置站点图标
-    ["link", { rel: "icon", type: "image/png", href: "https://theme-plume.vuejs.press/favicon-32x32.png" }],
+    ["link", { rel: "icon", type: "image/png", href: "/icon/c.svg" }],
   ],
 
   bundler: viteBundler(),
@@ -161,17 +162,17 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
-      //   repo: '',
-      //   repoId: '',
-      //   category: '',
-      //   categoryId: '',
-      //   mapping: 'pathname',
-      //   reactionsEnabled: true,
-      //   inputPosition: 'top',
-      // },
+      comment: {
+        provider: "Giscus", // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+        comment: true,
+        repo: "phpmarlowe/comments",
+        repoId: "R_kgDOOFSoWw",
+        category: "Announcements",
+        categoryId: "DIC_kwDOOFSoW84Cntyu",
+        mapping: "pathname",
+        reactionsEnabled: true,
+        inputPosition: "top",
+      },
     },
 
     /**
@@ -180,4 +181,5 @@ export default defineUserConfig({
      */
     // encrypt: {},
   }),
+  plugins,
 });
