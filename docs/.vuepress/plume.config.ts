@@ -38,7 +38,7 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: "https://phpmarlowe-pic.oss-cn-shanghai.aliyuncs.com/public/gg01.jpg",
-    name: "瓜瓜",
+    name: "",
     description: "挠你哟",
     circle: true,
     location: "",
