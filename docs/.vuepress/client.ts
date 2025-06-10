@@ -5,7 +5,7 @@ import Landing from "./theme/components/Landing.vue";
 import "./theme/styles/custom.css";
 import "./theme/styles/font.css";
 import "./theme/styles/plugins.css";
-import "./theme/styles/Landing.css";
+import "./theme/styles/landing.css";
 
 export default defineClientConfig({
   enhance({ app }) {
