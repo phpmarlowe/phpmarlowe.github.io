@@ -33,15 +33,9 @@ const active = ref(false);
 
 <template>
   <div class="landing-wrapper">
-    <LandingBg />
-
+    <!-- <LandingBg /> -->
     <div class="landing-container" :class="{ active }">
       <div class="landing-container-inner">
-        <div class="landing-left">
-          <!-- <LandingProfile :name="name" :avatar="avatar" /> -->
-          <LandingTagline :tagline="tagline" />
-        </div>
-
         <div class="landing-right">
           <div v-if="hitokoto || today" class="landing-extra">
             <LandingHitokoto v-if="hitokoto" />
@@ -70,6 +64,8 @@ const active = ref(false);
   min-height: 100vh;
   overflow: hidden;
   /* background-color: #89bac1; */
+  background: url("https://phpmarlowe-test.oss-cn-beijing.aliyuncs.com/home/infinity-4626223.jpg") no-repeat center center fixed;
+  background-size: 100%;
 }
 
 .landing-bg::before {
@@ -113,6 +109,7 @@ const active = ref(false);
   align-items: center;
   width: 100%;
   gap: 0 48px;
+  padding: 0 50px;
 }
 
 .landing-container-inner .landing-left {
