@@ -4,10 +4,13 @@ import { defineClientConfig } from "vuepress/client";
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 
-import CustomComponent from "./docs/.vuepress/theme/components/Custom.vue";
+import Landing from "./docs/.vuepress/theme/components/Landing/Landing.vue";
 
 import "./docs/.vuepress/theme/styles/index.scss";
-
+import "./docs/.vuepress/theme/styles/custom.css";
+import "./docs/.vuepress/theme/styles/font.css";
+import "./docs/.vuepress/theme/styles/plugins.css";
+import "./docs/.vuepress/theme/styles/landing.css";
 export default defineClientConfig({
   enhance({ app }) {
     // built-in components
@@ -16,6 +19,6 @@ export default defineClientConfig({
     // app.component('NpmBadgeGroup', NpmBadgeGroup)
     // app.component('Swiper', Swiper) // you should install `swiper`
     // your custom components
-    app.component("CustomComponent", CustomComponent);
+    app.component("Landing", Landing);
   },
 });
