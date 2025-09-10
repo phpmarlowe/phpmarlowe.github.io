@@ -1,11 +1,9 @@
 ---
 pageLayout: home
 pageClass: layout-landing
-title: 鹏展博
 navbar: false
 config:
   - type: Landing
-    name: 鹏展博
     tagline: 即使慢，驰而不息，纵会落后，纵会失败，但必须能够到达他所向的目标。
     avatar: /images/blogger-fav.png
     background: https://api.pengzhanbo.cn/wallpaper/bing
@@ -14,7 +12,7 @@ config:
         link: /blog/
         icon: material-symbols:menu-book
 
-      - text: 备忘录
+      - text: 杂技
         link: /memorandum/
         icon: emojione-monotone:memo
 
@@ -22,27 +20,11 @@ config:
         link: /sites-collect/
         icon: mdi:roadmap
 
-      - text: 开源
+      - text: 相册
         link: /projects/
         icon: material-symbols:code
-
-      - text: AI
-        link: /ai/
-        icon: eos-icons:ai
-
-      - text: CLI
-        link: /cli/
-        icon: grommet-icons:cli
 
       - text: 书籍推荐
         link: /ebooks/
         icon: material-symbols:recommend
-
-      - text: 防御性 CSS
-        link: /defensive-css/
-        icon: streamline:css-three
-
-      - text: 前端面试题
-        link: /interview-question/
-        icon: codicon:comment-unresolved
 ---
