@@ -48,8 +48,8 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: "/img/favicon.svg",
-    name: "币圈参考消息",
-    description: " 专注信息收集&交易参考",
+    name: "参考消息",
+    description: "",
     circle: true,
     location: "",
     organization: "",
