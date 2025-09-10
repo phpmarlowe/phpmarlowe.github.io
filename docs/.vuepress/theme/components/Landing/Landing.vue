@@ -6,6 +6,8 @@ import LandingNav from "./LandingNav.vue";
 import LandingProfile from "./LandingProfile.vue";
 import LandingTagline from "./LandingTagline.vue";
 import LandingToday from "./LandingToday.vue";
+import { useData } from "vuepress-theme-plume/client";
+const { theme } = useData();
 
 interface LandingNavItem {
   text: string;
@@ -34,6 +36,8 @@ const active = ref(false);
 <template>
   <div class="landing-wrapper">
     <!-- <LandingBg /> -->
+    <!-- {{ theme }} -->
+    <img :src="theme.profile.avatar || ''" alt="" style="border-radius: 50%; width: 50px; position: absolute; left: 50%; transform: translateX(-50%); top: 50px" />
     <div class="landing-container" :class="{ active }">
       <div class="landing-container-inner">
         <div class="landing-right" style="width: 100%">
@@ -46,12 +50,12 @@ const active = ref(false);
         </div>
       </div>
     </div>
-    <div class="landing-card landing-btn">
+    <!-- <div class="landing-card landing-btn">
       <div class="landing-btn-inner" :class="{ active }" @click="active = !active">
         <span class="vpi-landing-menu" />
         <span class="vpi-landing-home" />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -64,9 +68,8 @@ const active = ref(false);
   min-height: 100vh;
   overflow: hidden;
   /* background-color: #89bac1; */
-  background: url("https://phpmarlowe-test.oss-cn-beijing.aliyuncs.com/home/infinity-4626223.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /* background: url("https://phpmarlowe-test.oss-cn-beijing.aliyuncs.com/home/infinity-4626223.jpg"); */
+  background: radial-gradient(circle, #f0f0f0, #c0c0c0);
 }
 
 .landing-bg::before {
