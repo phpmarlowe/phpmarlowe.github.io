@@ -36,7 +36,7 @@ const active = ref(false);
     <!-- <LandingBg /> -->
     <div class="landing-container" :class="{ active }">
       <div class="landing-container-inner">
-        <div class="landing-right">
+        <div class="landing-right" style="width: 100%">
           <div v-if="hitokoto || today" class="landing-extra">
             <LandingHitokoto v-if="hitokoto" />
             <LandingToday v-if="today" />
@@ -64,8 +64,9 @@ const active = ref(false);
   min-height: 100vh;
   overflow: hidden;
   /* background-color: #89bac1; */
-  background: url("https://phpmarlowe-test.oss-cn-beijing.aliyuncs.com/home/infinity-4626223.jpg") no-repeat center center fixed;
-  background-size: 100%;
+  background: url("https://phpmarlowe-test.oss-cn-beijing.aliyuncs.com/home/infinity-4626223.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .landing-bg::before {
@@ -92,11 +93,12 @@ const active = ref(false);
   padding: 0 24px var(--vp-footer-height) 24px;
   transform: translate3d(0, 0, 0);
   transition: transform var(--vp-t-color);
+  padding: 0 50px;
 }
 
 @media (max-width: 767px) {
   .landing-container {
-    width: 200%;
+    width: 100%;
   }
 
   .landing-container.active {
@@ -109,19 +111,19 @@ const active = ref(false);
   align-items: center;
   width: 100%;
   gap: 0 48px;
-  padding: 0 50px;
+  /* padding: 0 50px; */
 }
 
 .landing-container-inner .landing-left {
   display: flex;
   flex-direction: column;
-  flex: 1 2;
+  /* flex: 1 2; */
 }
 
 .landing-container-inner .landing-right {
   display: flex;
   flex-direction: column;
-  flex: 1 2;
+  /* flex: 1 2; */
 }
 
 .landing-extra {
